@@ -45,7 +45,7 @@ body {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid rgb(231, 172, 216);
-  background-color: rgb(219, 212, 212);
+  background-color: rgb(207, 214, 218);
 }
 .product-image {
   width: 150px;
@@ -67,7 +67,7 @@ body {
 
 /* fav icon style */
 .star_color {
-  color: rgb(230, 230, 43);
+  color: rgb(255, 255, 31);
 }
 
 /* extra font size */
