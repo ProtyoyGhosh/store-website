@@ -2,33 +2,25 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
-.search-field {
-  border: none;
-  border-radius: 50px;
-  padding: 5px;
-  outline: none;
-}
-.search-field:hover {
-  outline: none;
-  border: none;
-}
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
   width: 281px;
   border-radius: 5px;
   margin: auto;
-  margin-top: 50px;
+  padding: 8px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   border-right: none;
 }
-.search-button {
-  padding: 10px 50px;
-  border-radius: 25px;
-  margin-left: 20px;
+.search-field:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
 }
+
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* border: 1px solid black; */
+
   text-align: center;
   width: 100%;
   margin: auto;
@@ -43,6 +35,7 @@ body {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
+  background-color: rgb(226, 205, 209);
 }
 .product-image {
   width: 150px;
