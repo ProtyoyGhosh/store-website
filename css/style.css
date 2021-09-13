@@ -2,6 +2,17 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+/* header style */
+.header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 20px;
+  color: #1888ce;
+  text-decoration: underline;
+}
+
+/* search raea style */
 .search-box {
   width: 281px;
   border-radius: 5px;
@@ -16,11 +27,10 @@ body {
   box-shadow: 0 0 8px 0 dodgerblue;
 }
 
+/* crd style */
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* border: 1px solid black; */
-
   text-align: center;
   width: 100%;
   margin: auto;
@@ -34,16 +44,17 @@ body {
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid cyan;
-  background-color: rgb(226, 205, 209);
+  border: 1px solid rgb(231, 172, 216);
+  background-color: rgb(219, 212, 212);
 }
 .product-image {
   width: 150px;
   height: 150px;
 }
+
+/* cart style */
 .cart {
   width: 350px;
-  /* border: 1px solid green; */
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
@@ -53,6 +64,23 @@ body {
 .cart-main {
   padding-right: 30px;
 }
+
+/* fav icon style */
+.star_color {
+  color: rgb(230, 230, 43);
+}
+
+/* extra font size */
+#basic {
+  font-size: 25px;
+  font-weight: 700;
+}
+.basic {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* adding media quarry */
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
