@@ -48,8 +48,10 @@ const getInputValue = (id) => {
 
 // main price update function
 const updatePrice = (id, value) => {
+   const convertedOldPrice = getInputValue(id);
   const convertPrice = parseFloat(value) ;
-  const total = count * convertPrice;
+  // const total = count * convertPrice;
+  const total = convertedOldPrice + convertPrice;
   document.getElementById(id).innerText = total;
 };
 
